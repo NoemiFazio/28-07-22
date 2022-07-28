@@ -13,16 +13,18 @@
 .mainContent {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 .App__friends {
   color: lightgrey;
   text-align: center;
+  flex-grow: 1;
 }
 
 .App_messages {
   padding: 20px;
   width: 400px;
+  flex-grow: 3;
 }
 
 @media (max-width: 767px) {

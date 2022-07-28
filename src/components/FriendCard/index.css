@@ -11,7 +11,7 @@
 }
 
 .FriendCard:hover {
-  background: lightseagreen;
+  background: rgb(195, 42, 200);
 }
 
 .FriendCard__photo {
@@ -25,4 +25,20 @@
   font-size: 0.9rem;
   font-weight: bold;
   width: 100%;
+}
+
+.FriendCard__delete-btn {
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: 0;
+  color: #0fffa3;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 1.35s;
+}
+.FriendCard__delete-btn:hover {
+  transform: scale(1.4) rotate(359deg);
 }

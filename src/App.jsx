@@ -29,11 +29,11 @@ function App() {
           <div className="mainContent">
             <div className="App__friends">
               <h3>Lista degli amici</h3>
-              <FriendCardList />
               <AddFriend
                 isRenderedFriendList={isRenderedFriendList}
                 onAddFriendButton={setRenderedFriendList}
               />
+              <FriendCardList />
             </div>
             <div className="App_messages">
               <AddMessage

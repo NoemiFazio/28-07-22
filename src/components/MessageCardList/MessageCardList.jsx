@@ -14,6 +14,7 @@ const MessageCardList = ({ isRenderedList, setRenderedList, filteredList }) => {
   return (
     <div className="MessageCardList">
       <Button
+        className="MessageCardList__btn"
         btnTextContent="Update list"
         onHandleClick={() => setRenderedList(!isRenderedList)}
       />

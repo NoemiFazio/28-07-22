@@ -35,7 +35,12 @@ const AddMessage = ({ isRenderedList, onAddButton }) => {
         required
       />
 
-      <Button type="submit" btnTextContent="Invia" color="#0fffa3" />
+      <Button
+        type="submit"
+        className="AddMessage__btn"
+        btnTextContent="Invia"
+        color="#0fffa3"
+      />
     </form>
   );
 };
